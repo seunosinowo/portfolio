@@ -32,7 +32,7 @@ const About: React.FC = () => {
               <div className="md:w-1/3 flex flex-col gap-6">
                 <div className="card-bg rounded-custom p-6 flex flex-col items-center justify-center transform hover:scale-105 transition-transform duration-300 hover:shadow-lg border border-primary/10">
                   <div className="text-6xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent mb-3">
-                    23+
+                    25+
                   </div>
                   <div className="text-xl font-medium text-text-light text-center">Projects Completed</div>
                 </div>
