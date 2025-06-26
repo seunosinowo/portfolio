@@ -26,7 +26,7 @@ const Hero: React.FC = () => {
               Transforming ideas into powerful digital tools that solve real problems. From websites to web applications, I create technology solutions that work for you in the simplest and most effective way possible.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
-              <a href="#portfolio" className="btn">View My Work</a>
+              <a href="#projects" className="btn">View My Work</a>
               <a href="#contact" className="btn btn-secondary">Get In Touch</a>
             </div>
           </div>
