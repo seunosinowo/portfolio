@@ -5,11 +5,11 @@ import { SiTailwindcss, SiMongodb } from 'react-icons/si';
 const Skills: React.FC = () => {
   const skills = [
     { icon: <FaJs size={32} />, title: "JavaScript", description: "Modern ES6+ features and best practices" },
-    { icon: <FaCode size={32} />, title: "TypeScript", description: "Type-safe development and interfaces" },
-    { icon: <FaReact size={32} />, title: "React", description: "Component-based UI development" },
+    { icon: <FaCode size={32} />, title: "TypeScript", description: "Type safe development and interfaces" },
+    { icon: <FaReact size={32} />, title: "React", description: "Component based UI development" },
     { icon: <FaHtml5 size={32} />, title: "HTML5", description: "Semantic markup and accessibility" },
     { icon: <FaCss3Alt size={32} />, title: "CSS3", description: "Responsive design and animations" },
-    { icon: <FaNodeJs size={32} />, title: "Node.js", description: "Server-side development" },
+    { icon: <FaNodeJs size={32} />, title: "Node.js", description: "Server side development" },
     { icon: <SiTailwindcss size={32} />, title: "Tailwind CSS", description: "Utility-first styling" },
     { icon: <FaPhp size={32} />, title: "PHP", description: "Web development with PHP" },
     { icon: <SiMongodb size={32} />, title: "MongoDB", description: "Database management" },
