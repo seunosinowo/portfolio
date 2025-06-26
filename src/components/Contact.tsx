@@ -67,21 +67,10 @@ const Contact: React.FC = () => {
             Start the Conversation
           </p>
         </div>
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-5xl mx-auto">
-          {/* Left: Profile Image */}
-          <div className="card-bg rounded-custom p-10 shadow-custom flex flex-col items-center justify-center">
-            <div className="flex justify-center items-center bg-black rounded-custom overflow-hidden mb-10" style={{ minHeight: 320 }}>
-              <img
-                src="/images/seun.jpeg"
-                alt="Seun Osinowo"
-                className="w-full h-full object-cover grayscale contrast-200 brightness-75"
-                style={{ mixBlendMode: 'lighten' }}
-              />
-            </div>
-          </div>
-          {/* Right: Contact Form & Links */}
-          <div className="card-bg rounded-custom p-10 shadow-custom">
-            <form ref={form} onSubmit={sendForm}>
+        <div className="relative grid grid-cols-1 lg:grid-cols-[1fr_auto_1fr] gap-8 max-w-4xl mx-auto items-center">
+          {/* Left: Contact Form */}
+          <div className="card-bg rounded-custom p-10 shadow-custom flex flex-col justify-center items-center w-full max-w-md mx-auto">
+            <form ref={form} onSubmit={sendForm} className="w-full">
               <input type="hidden" name="access_key" value={WEB3FORMS_KEY} />
               <div className="mb-5">
                 <label className="block mb-2 text-text-light">Name</label>
@@ -146,10 +135,14 @@ const Contact: React.FC = () => {
                 {loading ? 'Sending...' : 'Send Message'}
               </button>
             </form>
-            <div className="my-8 flex items-center justify-center">
-              <span className="text-text-light text-sm px-4">or</span>
-            </div>
-            <div className="flex flex-col gap-4">
+          </div>
+          {/* OR Separator */}
+          <div className="hidden lg:flex flex-col items-center justify-center h-full">
+            <span className="text-text-light text-sm px-4 py-2 bg-dark/70 rounded-full border border-card-border shadow">or</span>
+          </div>
+          {/* Right: Contact Links */}
+          <div className="card-bg rounded-custom shadow-custom flex flex-col justify-center items-center w-full max-w-md mx-auto px-4 py-8">
+            <div className="flex flex-col gap-4 w-full">
               <a href="https://calendly.com/oluwaseunpaul98/30min" target="_blank" rel="noopener noreferrer" className="btn btn-secondary w-full flex items-center justify-center">Book a call</a>
               <a href="https://www.linkedin.com/in/seun-osinowo-0174a1215/" target="_blank" rel="noopener noreferrer" className="btn w-full flex items-center justify-center gap-2"><FaLinkedin /> LinkedIn</a>
               <a href="https://wa.me/2348110541803" target="_blank" rel="noopener noreferrer" className="btn w-full flex items-center justify-center gap-2"><FaWhatsapp /> WhatsApp</a>
