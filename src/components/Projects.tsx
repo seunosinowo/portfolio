@@ -4,7 +4,7 @@ import { FaArrowRight, FaExternalLinkAlt } from 'react-icons/fa';
 const Projects: React.FC = () => {
   const projects = [
     {
-      image: '/images/hrm.JPG',
+      image: 'images/hrm.JPG',
       title: "HRM Management Office",
       tags: [
         { label: "Full Stack Development", color: "bg-accent-light text-accent" },
@@ -14,7 +14,7 @@ const Projects: React.FC = () => {
       link: "https://hrmoffice.vercel.app/"
     },
     {
-      image: '/images/namic.JPG',
+      image: 'images/namic.JPG',
       title: "NAMIC Community Center",
       tags: [
         { label: "Web Development", color: "bg-secondary-light text-secondary" },
@@ -23,7 +23,7 @@ const Projects: React.FC = () => {
       link: "https://namic-center.vercel.app/"
     },
     {
-      image: '/images/thozone.JPG',
+      image: 'images/thozone.JPG',
       title: "ThoZoneVR",
       tags: [
         { label: "Web Development", color: "bg-secondary-light text-secondary" },
@@ -35,7 +35,7 @@ const Projects: React.FC = () => {
     },
     
     {
-      image: '/images/fresh.JPG',
+      image: 'images/fresh.JPG',
       title: "FreshCrate",
       tags: [
         { label: "Web Development", color: "bg-secondary-light text-secondary" },
@@ -45,7 +45,7 @@ const Projects: React.FC = () => {
       link: "https://freshcrate-web.vercel.app/"
     },
     {
-      image: '/images/Earth.JPG',
+      image: 'images/Earth.JPG',
       title: "EarthTones",
       tags: [
         { label: "Web Development", color: "bg-secondary-light text-secondary" },
@@ -55,7 +55,7 @@ const Projects: React.FC = () => {
       link: "https://earthtones-zeta.vercel.app/"
     },
     {
-      image: '/images/teachers.JPG',
+      image: 'images/teachers.JPG',
       title: "Teachers",
       tags: [
         { label: "Web Development", color: "bg-secondary-light text-secondary" },
