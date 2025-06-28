@@ -10,7 +10,7 @@ const Header: React.FC = () => {
             Seun Osinowo
           </div>
           <ul className="hidden md:flex space-x-8">
-            {['Home', 'About', 'Skills', 'Experience', 'Portfolio', 'Contact'].map((item) => (
+            {['Home', 'About', 'Skills', 'Experience', 'Projects', 'Contact'].map((item) => (
               <li key={item}>
                 <a 
                   href={`#${item.toLowerCase()}`} 
