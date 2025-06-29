@@ -67,8 +67,8 @@ const Projects: React.FC = () => {
   ];
 
   return (
-    <section id="projects" className="py-24 lg:pt-[900px]">
-      <div className="container mx-auto px-4">
+    <section id="projects" className="py-24 lg:pt-32 overflow-x-hidden">
+      <div className="container mx-auto px-2 sm:px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold font-poppins">
             Featured <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">Projects</span>

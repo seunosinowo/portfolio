@@ -3,8 +3,8 @@ import { FaLinkedinIn, FaGithub, FaXTwitter } from 'react-icons/fa6';
 
 const Header: React.FC = () => {
   return (
-    <header className="fixed top-0 left-0 w-full z-50 py-5 bg-dark bg-opacity-95 backdrop-blur border-b border-card-border">
-      <div className="container mx-auto px-4">
+    <header className="fixed top-0 left-0 w-full z-50 py-5 bg-dark bg-opacity-95 backdrop-blur border-b border-card-border overflow-x-hidden">
+      <div className="container mx-auto px-2 sm:px-4">
         <nav className="flex justify-between items-center">
           <div className="text-2xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
             Seun Osinowo

@@ -35,7 +35,7 @@ const Contact: React.FC = () => {
   };
 
   return (
-    <section id="contact" className="py-24">
+    <section id="contact" className="py-24 overflow-x-hidden">
       {/* Modal */}
       {modal.open && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/40">
@@ -58,7 +58,7 @@ const Contact: React.FC = () => {
           </div>
         </div>
       )}
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-2 sm:px-4">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold font-poppins">
             Let's <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">Connect</span>

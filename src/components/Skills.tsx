@@ -17,7 +17,7 @@ const Skills: React.FC = () => {
   ];
 
   return (
-    <section id="skills" className="py-4">
+    <section id="skills" className="py-4 overflow-x-hidden">
       <div className="container mx-auto px-4">
         <div className="text-center mb-8">
           <h2 className="text-2xl md:text-3xl font-bold font-poppins">

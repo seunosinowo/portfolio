@@ -2,9 +2,9 @@ import React from 'react';
 
 const About: React.FC = () => {
   return (
-    <section id="about" className="py-24">
-      <div className="container mx-auto px-4">
-        <div className="w-4/5 mx-auto">
+    <section id="about" className="py-24 overflow-x-hidden">
+      <div className="container mx-auto px-2 sm:px-4">
+        <div className="w-[90%] sm:w-4/5 max-w-4xl mx-auto">
           <div className="card-bg rounded-custom p-8 shadow-custom">
             <div className="flex flex-col md:flex-row gap-8">
               {/* Left side - Main content */}

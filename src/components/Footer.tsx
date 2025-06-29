@@ -13,7 +13,7 @@ const navLinks = [
 
 const Footer: React.FC = () => {
   return (
-    <footer className="pt-8 pb-3 mt-16 bg-dark/90 border-t border-card-border">
+    <footer className="pt-8 pb-3 mt-16 bg-dark/90 border-t border-card-border overflow-x-hidden">
       <div className="container mx-auto px-4 flex flex-col items-center">
         <div className="mb-2">
           <span className="text-2xl md:text-3xl font-bold tracking-widest select-none bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">Seun Osinowo</span>
