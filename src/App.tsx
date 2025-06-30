@@ -1,12 +1,12 @@
+import React from 'react';
+import HomePage from './pages/HomePage';
 
-function App() {
+const App: React.FC = () => {
   return (
-    <div className="min-h-screen">
-      <div className="">
-        <h1 className="text-red-300">Seun is my name</h1>
-      </div>
+    <div className="min-h-screen overflow-x-hidden">
+      <HomePage />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;

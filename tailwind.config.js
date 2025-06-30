@@ -35,6 +35,9 @@ export default {
           "50%": { opacity: "0.5", transform: "scale(1.05)" },
         },
       },
+      fontFamily: {
+        'inter': ['Inter', 'sans-serif'],
+      },
     },
   },
   plugins: [],
