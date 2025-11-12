@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaJs, FaCode, FaReact, FaHtml5, FaCss3Alt, FaNodeJs, FaDatabase, FaPhp } from 'react-icons/fa';
-import { SiTailwindcss, SiMongodb } from 'react-icons/si';
+import { SiTailwindcss, SiMongodb, SiNextdotjs, SiPostgresql } from 'react-icons/si';
 
 const Skills: React.FC = () => {
   const skills = [
@@ -13,6 +13,8 @@ const Skills: React.FC = () => {
     { icon: <SiTailwindcss size={32} />, title: "Tailwind CSS", description: "Utility-first styling" },
     { icon: <FaPhp size={32} />, title: "PHP", description: "Web development with PHP" },
     { icon: <SiMongodb size={32} />, title: "MongoDB", description: "Database management" },
+  { icon: <SiNextdotjs size={32} />, title: "Next.js", description: "Server-side rendering and fullstack React" },
+  { icon: <SiPostgresql size={32} />, title: "PostgreSQL", description: "Relational database management" },
     { icon: <FaDatabase size={32} />, title: "SQL", description: "Relational database operations" },
   ];
 

@@ -1,5 +1,5 @@
 import React, { useRef, useState } from 'react';
-import { FaLinkedin, FaWhatsapp, FaTelegram } from 'react-icons/fa';
+import { FaLinkedin } from 'react-icons/fa';
 
 const WEB3FORMS_URL = 'https://api.web3forms.com/submit';
 const WEB3FORMS_KEY = '53162de4-b933-422e-85d8-284be6830a0f';
@@ -145,8 +145,6 @@ const Contact: React.FC = () => {
             <div className="flex flex-col gap-4 w-full">
               <a href="https://calendly.com/oluwaseunpaul98/30min" target="_blank" rel="noopener noreferrer" className="btn btn-secondary w-full flex items-center justify-center">Book a call</a>
               <a href="https://www.linkedin.com/in/seun-osinowo-0174a1215/" target="_blank" rel="noopener noreferrer" className="btn w-full flex items-center justify-center gap-2"><FaLinkedin /> LinkedIn</a>
-              <a href="https://wa.me/2348110541803" target="_blank" rel="noopener noreferrer" className="btn w-full flex items-center justify-center gap-2"><FaWhatsapp /> WhatsApp</a>
-              <a href="https://t.me/seunosinowo1" target="_blank" rel="noopener noreferrer" className="btn w-full flex items-center justify-center gap-2"><FaTelegram /> Telegram</a>
             </div>
           </div>
         </div>
